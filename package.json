@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@types/node": "^22.10.1",
+    "@vueuse/core": "^12.0.0",
     "axios": "^1.7.8",
     "pinia": "^2.2.8",
     "pinia-plugin-persistedstate": "^4.1.3",
