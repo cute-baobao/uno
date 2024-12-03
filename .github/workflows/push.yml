@@ -23,7 +23,7 @@ jobs:
                   node-version: 16.0.0
 
             # 安装pnpm
-            - name: 安装pnpm
+            - name:  node-pnpm
               run: npm install -g pnpm
 
             # 安装依赖
