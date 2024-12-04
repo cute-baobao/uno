@@ -4,7 +4,7 @@ const onThemeChange = (e: string) => {
 };
 </script>
 <template>
-  <div class="container">
+  <div class="container bg-amber">
     <header bg-primary flex items-center justify-center gap-2>
       <h2>主题切换</h2>
       <button @click="onThemeChange('default')">default</button>
