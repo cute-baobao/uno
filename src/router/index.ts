@@ -36,6 +36,7 @@ const router = createRouter({
  * @param next 跳转函数
  */
 router.beforeEach((to, from, next) => {
+    console.log(from)
     const token = useToken(store)
     const pathUrl:string[] = ['/detail']
     if(pathUrl.includes(to.path)){
